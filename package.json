@@ -1,0 +1,27 @@
+{
+  "name": "medium-get-posts",
+  "version": "1.0.0",
+  "description": "A simple nodejs project to fetch medium posts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kimkykie/medium-get-posts.git"
+  },
+  "keywords": [
+    "medium"
+  ],
+  "author": "Kim Kiragu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kimkykie/medium-get-posts/issues"
+  },
+  "homepage": "https://github.com/Kimkykie/medium-get-posts#readme",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "rss-parser": "^3.7.0"
+  }
+}
